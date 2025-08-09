@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+ul{display: flex;gap:20px;}
+ul li{list-style-type: none;}
+
+Header,footer{
+    background-color: #1f2937;
+}
+
+.headerLogo{
+    font-size: 24px;
+    color: #f9faf8;
+    
+}
+.signupText, ul li a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.heroMainText{
+    font-size: 48px;    
+    font-weight: 900;
+    color: #f9faf8;
+}
+.callAction{
+background-color: #3882f6;
+}
+
+.headerBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+Header{
+    flex: 1;
+}
+.randomInfo{
+    flex:1;
+}
+.inspiration{
+    flex: 1;
+    background-color: #e5e7eb;
+}
+.action{
+    flex: 1;
+}
+footer{
+    flex: 0.25;
+}
